@@ -38,14 +38,19 @@ const UserDetail = () => {
                       <p>Email:</p>
                       <p>Age:</p>
                       <p>Gender:</p>
-                      <p>Address:</p>
-                      <p>Phone Number:</p>
+                      <p>Balance:</p>
+                      <p>EyeColor:</p>
+                      <p>Address:</p>    
+                      <p>Number:</p>
+  
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-8">
                     <h4>{user.name}</h4>
                       <p>{user.email}</p>
                       <p>{user.age}</p>
                       <p>{user.gender}</p>
+                      <p>{user.balance}</p>
+                      <p>{user.eyeColor}</p>
                       <p>{user.address}</p>
                       <p>{user.phone}</p>
                     </div>
