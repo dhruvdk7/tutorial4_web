@@ -43,7 +43,7 @@ const ProfilePage = () => {
       <input
           type="text"
           className="form-control"
-          placeholder="Search by name"
+          placeholder="Search by FirstName or LastName"
           value={searchTerm}
           onChange={searchChange}
           style={{
